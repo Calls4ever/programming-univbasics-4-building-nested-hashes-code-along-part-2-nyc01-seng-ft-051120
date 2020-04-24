@@ -60,9 +60,9 @@ def add_characters
    #   - The first hash should have the :name key set to "Prince Escalus"
    #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
-  prince_escalus= Hash.new{}
+  prince_escalus= Hash.new
   prince_escalus={:name => "Prince Escalus"}
-  apothcary=Hash.new{}
+  apothcary=Hash.new
   apothcary{:name => "Apothecary"}
 epic_tragedy[:additional_characters]=[prince_escalus,apothcary]
 
