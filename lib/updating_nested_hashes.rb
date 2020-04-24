@@ -63,7 +63,7 @@ def add_characters
   prince_escalus= Hash.new
   prince_escalus={:name => "Prince Escalus"}
   apothcary=Hash.new
-  apothcary={name: => "Apothecary"}
+  apothcary={:name => "Apothecary"}
 epic_tragedy[:additional_characters]=[prince_escalus,apothcary]
 
 
